@@ -1,0 +1,21 @@
+{
+    "chapter_name": "data structures with c++",
+    "chapter_description": "Basics to advance tutorials for learning Implementing of data structures with c++",
+    "number_of_lessons": "1",
+    "Expanded_chapter_view": {
+        "lessons": [
+            {
+                "lesson_name": "Arrays in c++",
+                "video_url": "https://www.youtube.com/watch?v=VwUWMcmvfgM&t=16s",
+                "lesson_description": "Like other programming languages, array in C++ is a group of similar types of elements that have contiguous memory location.In C++ std::array is a container that encapsulates fixed size arrays. In C++, array index starts from 0. We can store only fixed set of elements in C++ array.A collection of related data items stored in adjacent memory places is referred to as an array in the C/C++ programming language or any other programming language for that matter. Elements of an array can be accessed arbitrarily using its indices. They can be used to store a collection of any type of primitive data type, including int, float, double, char, etc. An array in C/C++ can also store derived data types like structures, pointers, and other data types, which is an addition. The array representation in a picture is provided below.",
+                "more_tutorials": [
+                    "https://www.youtube.com/watch?v=PyTK_g1l8V8&pp=ygUMYXJyYXkgaW4gY3Bw",
+                    "https://www.youtube.com/watch?v=ePJxpxsnkGw&pp=ygUMYXJyYXkgaW4gY3Bw",
+                    "https://www.youtube.com/watch?v=afoJyiiN1Pw&pp=ygUMYXJyYXkgaW4gY3Bw",
+                    "https://www.youtube.com/watch?v=sNrLlmOIn-c&pp=ygUMYXJyYXkgaW4gY3Bw"
+                ]
+            }
+        ],
+        "others": ""
+    }
+}

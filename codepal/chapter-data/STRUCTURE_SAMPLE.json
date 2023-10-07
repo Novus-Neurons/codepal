@@ -1,0 +1,28 @@
+{
+    "chapter_name": "<text_string>",
+    "chapter_description": "<text_string>",
+    "number_of_lessons": "<number>",
+    "Expanded_chapter_view": {
+        "lessons": [
+            {
+                "lesson_name": "<text_string>",
+                "video_url": "<url_string>",
+                "lesson_description": "<text_string>",
+                "more_tutorials": [
+                    "",
+                    ""
+                ]
+            },
+            {
+                "lesson_name": "<text_string>",
+                "video_url": "<url_string>",
+                "lesson_description": "<text_string>",
+                "more_tutorials": [
+                    "",
+                    ""
+                ]
+            }
+        ],
+        "others": "any external url for courses (optional) "
+    }
+}
