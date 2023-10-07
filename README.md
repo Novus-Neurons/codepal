@@ -2,6 +2,8 @@
 
 Welcome to Codepal, an open-source web application dedicated to providing beginner-friendly coding tutorials and explanations for various programming languages and topics. With Codepal, you can easily access and contribute to a growing collection of coding resources, making your journey into the world of programming smoother and more enjoyable.
 
+![prev](./designs/Mainpage.png)
+
 ## Project Overview
 
 - **Project Objective:** Codepal aims to build a platform for sharing and discovering simple and easy-to-follow coding tutorials. Whether you're a beginner looking to learn the basics or an experienced coder interested in sharing your knowledge, Codepal welcomes you to join our community.
@@ -20,7 +22,10 @@ Welcome to Codepal, an open-source web application dedicated to providing beginn
 
 To get started with Codepal, follow these steps:
 
+1. **fork the Repository:** Make a clone of the 
 1. **Clone the Repository:** Clone this GitHub repository to your local machine:
 
    ```bash
    git clone https://github.com/Novus-Neurons/codepal.git
+
+
