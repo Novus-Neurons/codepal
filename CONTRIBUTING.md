@@ -37,6 +37,10 @@ Thank you for considering contributing to Codepal! Your contributions are essent
 
 1. If you wish to contribute to the website's frontend, you can work on the design and features provided in the `/designs` folder. You may also propose new design ideas.
 
+2. If you are contributing to the frontend, make sure that data from json is properly.
+
+.3 [figma](https://www.figma.com/file/Ytjhr2hushiuM5ZblRWjrz/NN_Hacktober?type=design&node-id=0%3A1&mode=design&t=svBHSaUF1Zl1HTGw-1)
+
 ### Creating a Pull Request (PR)
 
 1. After making your changes in your branch, commit your changes with clear and concise commit messages.
