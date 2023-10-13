@@ -1,7 +1,7 @@
 {
-    "chapter_name": "<text_string>Title",
-    "chapter_description": "<text_string>Add description of your chapter here",
-    "number_of_lessons": "<number>",
+    "chapter_name": "All About Javascript",
+    "chapter_description": "Best Resources about Javascript to add magic in your webpages",
+    "number_of_lessons": "1",
     "Expanded_chapter_view": {
         "lessons": [
             {

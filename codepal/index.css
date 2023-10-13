@@ -80,3 +80,25 @@ nav .githubIcon {
     }
 
 }
+
+.box{
+    display: flex;
+    margin: auto auto;
+    width: 94%;
+    height: auto;
+    background: transparent;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box .tutorial{
+    margin: 1em 1em;
+    padding: 2rem;
+    height: 15rem;
+    width: 20rem;
+    background-color: rgb(249, 220, 183);
+    border-radius: 3rem;
+}
+.box .tutorial h2{
+    padding-bottom: 1.5rem;
+    font-size: 1.4rem;
+}
