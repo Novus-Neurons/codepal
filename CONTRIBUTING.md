@@ -43,13 +43,19 @@ Thank you for considering contributing to Codepal! Your contributions are essent
 
 ### Creating a Pull Request (PR)
 
-1. After making your changes in your branch, commit your changes with clear and concise commit messages.
+1. pull the changes and resolve the conglicts if any
+   ```bash
+      git pull origin main
+      git merge main
+   ```
+
+2. After making your changes in your branch, commit your changes with clear and concise commit messages.
 
    ```bash
    git commit -m "Add new tutorial for JavaScript basics."
    ```
 
-2. Push your changes to your GitHub repository.
+3. Push your changes to your GitHub repository.
 
    ```bash
    git push origin feature/your-feature-name
