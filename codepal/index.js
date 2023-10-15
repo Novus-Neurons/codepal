@@ -5,47 +5,53 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(navbarHtml => {
             document.getElementById("navbar").innerHTML = navbarHtml;
         });
-    //render components
-    fetch("./components/component.html")
-        .then(response => response.text())
-        .then(componentHtml => {
-            document.getElementById("component").innerHTML = componentHtml;
-        });
-    // Template to add course change the JSON file name
-    fetch('./chapter-data/STRUCTURE_SAMPLE.json')
-    .then(response => response.json())
-    .then(data => {
-        const main = document.querySelector('.box');
-        const tutorial = document.createElement('div');
-        tutorial.classList.add('tutorial');
 
-        tutorial.innerHTML = `<h2>${data.chapter_name}</h2><p>${data.chapter_description}</p>`;
 
-        main.appendChild(tutorial);
-    });
-    fetch('./chapter-data/DATA_STRUCTURES_WITH_CPP.json')
-        .then(response => response.json())
-        .then(data => {
-            const main = document.querySelector('.box');
-            const tutorial = document.createElement('div');
-            tutorial.classList.add('tutorial');
+    // fetchAllCards
+    async function fetchAllcards() {
+        await fetch("./Chapters.json")
+            .then(responce => responce.json())
+            .then(data => {
+                // console.log(data.chapter_data_paths)
+                for (let i = 0; i < data.chapter_data_paths.length; i++) {
+                    console.log("card path : ", data.chapter_data_paths[i])
+                    rendercard(`.${data.chapter_data_paths[i]}`)
+                }
+                // let allchapter = JSON.parse(data)
+            })
+    }
 
-            tutorial.innerHTML = `<h2>${data.chapter_name}</h2><p>${data.chapter_description}</p>`;
+    //render Cards
+    async function rendercard(path) {
 
-            main.appendChild(tutorial);
-        });
-        fetch('./chapter-data/ALL_ABOUT_JAVASCRIPT.json')
-        .then(response => response.json())
-        .then(data => {
-            const main = document.querySelector('.box');
-            const tutorial = document.createElement('div');
-            tutorial.classList.add('tutorial');
+        // console.log(path)
+        let carddata;
+        await fetch(path)
+            .then(response => response.json())
+            .then(cardData => {
+                console.log("cardData : ", cardData)
+                carddata = cardData
 
-            tutorial.innerHTML = `<h2>${data.chapter_name}</h2><p>${data.chapter_description}</p>`;
+            });
+            
+        await fetch("./components/Maincard.html")
+            .then(responce => responce.text())
+            .then((componentHTML) => {
+                const cardsContainer = document.getElementById("Allcards")
 
-            main.appendChild(tutorial);
-        });
-        
+                // const type = typeof componentHTML 
+                // console.log(type) // string
 
-       
+                const FinalCardComponent = componentHTML
+                    .replace(/{{Cardtitle}}/g, carddata.chapter_name)
+                    .replace(/{{CardDescription}}/g, carddata.chapter_description);
+
+                cardsContainer.innerHTML += FinalCardComponent
+
+            })
+    }
+
+    fetchAllcards()
+
+
 });
