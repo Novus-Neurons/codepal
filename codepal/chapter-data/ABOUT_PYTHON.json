@@ -1,0 +1,18 @@
+{
+    "chapter_name": "ABOUT_PYTHON",
+    "chapter_description": "Basics  tutorials for learning PYTHON",
+    "number_of_lessons":"2",
+    "Expanded_chapter_view": {
+        "lessons": [
+            {
+                "lesson_name": "string In c++",
+                "video_url": "https://www.youtube.com/watch?v=0INvoK_T0cE&list=PLu0W_9lII9agwh1XjRt242xIpHhPT2llg&index=13",
+                "lesson_description": "<The STRING method should be defined in a way that is easy to read and outputs all the members of the class",
+                "more_tutorials": [
+                    "https://www.youtube.com/watch?v=ANgYwq9fFQw"
+                ]
+            }
+        ],
+        "others": "any external url for courses (optional) "
+    }
+}
