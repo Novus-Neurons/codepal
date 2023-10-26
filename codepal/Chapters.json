@@ -1,7 +1,8 @@
 {
-    "total_number_of_chapters":"<2>",
+    "total_number_of_chapters":3,
     "chapter_data_paths":[
         "/chapter-data/DATA_STRUCTURES_WITH_CPP.json",
-        "/chapter-data/DATA_SCIENCE.json"
+        "/chapter-data/DATA_SCIENCE.json",
+        "/chapter-data/MACHINE_LEARNING.json"
     ]
 }
