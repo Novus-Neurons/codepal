@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 carddata = cardData
 
             });
-            
+
         await fetch("./components/Maincard.html")
             .then(responce => responce.text())
             .then((componentHTML) => {
