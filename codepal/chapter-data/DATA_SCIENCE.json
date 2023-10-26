@@ -1,0 +1,20 @@
+{
+    "chapter_name": "Data Science",
+    "chapter_description": "Basics to advance tutorials for learning Implementing of data science",
+    "number_of_lessons": "1",
+    "Expanded_chapter_view": {
+        "lessons": [
+            {
+                "lesson_name": "numpay",
+                "video_url": "https://www.youtube.com/watch?v=Rbh1rieb3zc&pp=ygUYbnVtcHkgdHV0b3JpYWwgZm9ydG5pdGUg",
+                "lesson_description": "numpay full implimentation",
+                "more_tutorials": [
+                    "https://www.youtube.com/watch?v=ZaKzw9tULeM&list=PLjVLYmrlmjGfgBKkIFBkMNGG7qyRfo00W&index=1&pp=iAQB",
+                    "https://www.youtube.com/watch?v=Nhl0uWRfdWc&list=PLjVLYmrlmjGfgBKkIFBkMNGG7qyRfo00W&index=3&pp=iAQB",
+                    "https://www.youtube.com/watch?v=ygua14B9MNA&list=PLjVLYmrlmjGfgBKkIFBkMNGG7qyRfo00W&index=7&pp=iAQB"
+                ]
+            }
+        ],
+        "others": ""
+    }
+}
