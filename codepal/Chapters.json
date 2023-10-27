@@ -3,6 +3,15 @@
     "chapter_data_paths":[
         "/chapter-data/DATA_STRUCTURES_WITH_CPP.json",
         "/chapter-data/DATA_SCIENCE.json",
-        "/chapter-data/MACHINE_LEARNING.json"
+        "/chapter-data/MACHINE_LEARNING.json",
+        "/chapter-data/DATA_STRUCTURES_WITH_CPP.json",
+        "/chapter-data/DATA_SCIENCE.json",
+        "/chapter-data/ABOUT_PYTHON.json",
+        "/chapter-data/ABOUT_C.json",
+        "/chapter-data/ALL_ABOUT_JAVA.json",
+        "/chapter-data/DBSM.json",
+        "/chapter-data/PROGRAMMING.json",
+        "/chapter-data/SECURITY_ESSENTIALS.json",
+        "/chapter-data/WD.json"
     ]
 }

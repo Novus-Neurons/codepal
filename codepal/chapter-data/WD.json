@@ -1,0 +1,46 @@
+{
+    "chapter_name": "Web Development Basics",
+    "chapter_description": "Get started with web development and create your first website.",
+    "number_of_lessons": 4,
+    "Expanded_chapter_view": {
+        "lessons": [
+            {
+                "lesson_name": "Lesson 1: HTML Fundamentals",
+                "video_url": "https://example.com/html101",
+                "lesson_description": "Introduction to HTML, the markup language for creating web pages.",
+                "more_tutorials": [
+                    "https://example.com/htmlbasics",
+                    "https://example.com/htmlbeginner"
+                ]
+            },
+            {
+                "lesson_name": "Lesson 2: CSS Styling",
+                "video_url": "https://example.com/css101",
+                "lesson_description": "Learn how to use CSS to style and format your web pages.",
+                "more_tutorials": [
+                    "https://example.com/cssstyling",
+                    "https://example.com/webdesign"
+                ]
+            },
+            {
+                "lesson_name": "Lesson 3: JavaScript for Interactivity",
+                "video_url": "https://example.com/js101",
+                "lesson_description": "Introduction to JavaScript for adding interactivity to websites.",
+                "more_tutorials": [
+                    "https://example.com/jsbeginner",
+                    "https://example.com/webinteraction"
+                ]
+            },
+            {
+                "lesson_name": "Lesson 4: Hosting Your Website",
+                "video_url": "https://example.com/hosting101",
+                "lesson_description": "Learn how to host your website and make it accessible on the internet.",
+                "more_tutorials": [
+                    "https://example.com/webhosting",
+                    "https://example.com/domainregistration"
+                ]
+            }
+        ],
+        "others": "https://example.com/webdevcourses"
+    }
+}

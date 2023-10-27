@@ -4,13 +4,21 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', 'Lucida Sans', 'Lucida Sans Regular';
+    font-family: 'Roboto', sans-serif;
 }
+:root 
+{
+    --background-60: #282A36;
+    --surface-30: #44475A; 
+    --primary: #BD93F9; 
+    --lifted: #44475A;
+    --surface-black: #121212; 
 
+}
 body {
-    background: #ECECFF;
+    background: var(--background-60);
     text-align: center;
-    color: #212121;
+    color: #121212;
 }
 
 #main::before {
@@ -21,29 +29,30 @@ body {
     height: 100vh;
     width: 100%;
     z-index: -1;
-    background: radial-gradient(92.82% 58.5% at 65.55% 44.29%, rgba(255, 227, 218, 0.50) 0%, rgba(255, 252, 252, 0.85) 100%), #F2F9F4;
+    background: radial-gradient(92.82% 58.5% at 65.55% 44.29%, #44475A 0%, var(--background-60) 100%), #c2e5cc;
 }
 
 nav a {
-    all: unset;
+    text-decoration: none;
     cursor: pointer;
 }
 
 nav {
     display: flex;
     width: 94%;
+    height: 64px; 
     border-radius: 25px;
-    background: #EB6F3B;
+    background: var(--lifted);
     align-items: center;
     justify-content: space-between;
     padding: 0.1em 2em;
-    margin-inline: auto;
-    margin-top: 1em;
+    margin: 1em auto;
 }
 
 nav .logo-container>img {
     width: 100%;
-    aspect-ratio: 1;
+    max-width: 50px;
+    height: 48px;
 }
 
 nav .logo-container {
@@ -53,38 +62,38 @@ nav .logo-container {
     gap: 1em;
     color: white;
     height: 5em;
-    aspect-ratio: 1;
 }
 
 nav .search-container {
-    width: min(40%, 450px);
+    flex: 1;
+    max-width: 450px;
 }
 
 nav .search-container input {
-    all: unset;
     width: 100%;
     padding: 0.6em 0.8em;
     border-radius: 30px;
     background: #FBFBFF;
+    border: none;
+    outline: none;
 }
 
 nav .githubIcon {
-    height: 75%;
+    height: 48px;
 }
 
 #Allcards {
     display: flex;
     flex-wrap: wrap;
-    align-items: start;
-    justify-content: start;
     gap: 1em;
-    margin-top: max(50px, 3%);
-    width: min(95vw, 1000px);
-    margin-inline: auto;
+    margin: max(50px, 3%) auto;
+    max-width: 1000px;
 }
 
 .MainPagecard:hover {
     box-shadow: 6px 0.55px 18px -3px rgba(101, 101, 101, 0.608);
+    transform: scale(1.1);
+    transition: 300ms ease-in-out;
 }
 
 .MainPagecard {
@@ -93,11 +102,18 @@ nav .githubIcon {
     width: min(80vw, 300px);
     padding: 2em;
     border-radius: 12px;
-    border: 1px solid rgba(34, 34, 34, 0.25);
-    background: #FFF;
+    border: 1px solid var(--surface-black);
+    background: #f7f7f7;
     gap: 1em;
-    transition: 0.5s;
+    transition: 0.3s ease-in-out;
     cursor: pointer;
+}
+
+.img-git
+{
+    height: 48px;
+    width: 48px; 
+    padding: 4px; 
 }
 
 .MainPagecard p {
@@ -106,8 +122,7 @@ nav .githubIcon {
     opacity: 0.6;
 }
 
-@media only screen and (max-width : 520px) {
-
+@media only screen and (max-width: 520px) {
     nav .search-container {
         display: none;
     }
@@ -115,5 +130,4 @@ nav .githubIcon {
     #Allcards {
         justify-content: center;
     }
-
 }
