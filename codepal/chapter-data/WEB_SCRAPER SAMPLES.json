@@ -1,0 +1,28 @@
+{
+    "chapter_name": "All About Web Scraper",
+    "chapter_description": "Everything about core java",
+    "number_of_lessons": "2",
+    "Expanded_chapter_view": {
+        "lessons": [
+            {
+                "lesson_name": "Java Basics",
+                "video_url": "https://www.youtube.com/watch?v=yRpLlJmRo2w&list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop&index=2",
+                "lesson_description": "Fundamentals of Java Language",
+                "more_tutorials": [
+                    "",
+                    ""
+                ]
+            },
+            {
+                "lesson_name": "Classes, Objects & Methods",
+                "video_url": "https://www.youtube.com/watch?v=qcSz4ef9UHA&pp=ygURamF2YSBhcG5hIGNvbGxlZ2U%3D",
+                "lesson_description": "OOPs concept in Java language",
+                "more_tutorials": [
+                    "",
+                    ""
+                ]
+            }
+        ],
+        "others": "Refer : Java - The complete referance "
+    }
+}
