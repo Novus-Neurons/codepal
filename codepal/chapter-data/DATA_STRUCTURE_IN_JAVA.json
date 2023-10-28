@@ -1,0 +1,20 @@
+{
+    "chapter_name": "Data structure in Java",
+    "chapter_description": "Basics to advance tutorials for data structure in Java",
+    "number_of_lessons": "1",
+    "Expanded_chapter_view": {
+        "lessons": [
+            {
+                "lesson_name": "Java Data Structure",
+                "video_url": "https://youtube.com/playlist?list=PLUcsbZa0qzu3yNzzAxgvSgRobdUUJvz7p&si=9I91n9z_-uxZayKe",
+                "lesson_description": "numpay full implimentation",
+                "more_tutorials": [
+                    "https://youtube.com/playlist?list=PLUcsbZa0qzu3yNzzAxgvSgRobdUUJvz7p&si=9I91n9z_-uxZayKe",
+                    "https://youtube.com/playlist?list=PLH9iLcrNpXtTjv1fYsoEv5u0pEox6m81_&si=CCWPRCf1CEG84z8P",
+                    "https://youtube.com/playlist?list=PLDzeHZWIZsTomOPnCiU3J95WufjE36wsb&si=9j0w3mPRonWDuOJ9"
+                ]
+            }
+        ],
+        "others": ""
+    }
+}

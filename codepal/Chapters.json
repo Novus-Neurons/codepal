@@ -12,6 +12,10 @@
         "/chapter-data/DBSM.json",
         "/chapter-data/PROGRAMMING.json",
         "/chapter-data/SECURITY_ESSENTIALS.json",
-        "/chapter-data/WD.json"
+        "/chapter-data/WD.json",
+        "/chapter-data/DATA_STRUCTURE_IN_JAVA.json",
+        "/chapter-data/REACT_NATIVE.json"
+
+        
     ]
 }
