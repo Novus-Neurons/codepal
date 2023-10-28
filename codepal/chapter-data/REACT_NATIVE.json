@@ -1,0 +1,20 @@
+{
+    "chapter_name": "React Native",
+    "chapter_description": "Basic to advance mobile development in React Native",
+    "number_of_lessons": "1",
+    "Expanded_chapter_view": {
+        "lessons": [
+            {
+                "lesson_name": "Java Data Structure",
+                "video_url": "https://youtu.be/gvkqT_Uoahw?si=hvarUyaURmFR88PV",
+                "lesson_description": "numpay full implimentation",
+                "more_tutorials": [
+                    "https://youtu.be/gvkqT_Uoahw?si=hvarUyaURmFR88PV",
+                    "https://youtube.com/playlist?list=PLRAV69dS1uWSjBBJ-egNNOd4mdblt1P4c&si=0ebJMkoMs7-3oHfR",
+                    "https://youtube.com/playlist?list=PLDzeHZWIZsTomOPnCiU3J95WufjE36wsb&si=9j0w3mPRonWDuOJ9"
+                ]
+            }
+        ],
+        "others": ""
+    }
+}
