@@ -1,0 +1,37 @@
+{
+    "chapter_name": "Introduction to Programming",
+    "chapter_description": "Learn the basics of programming and how to write your first code.",
+    "number_of_lessons": 3,
+    "Expanded_chapter_view": {
+        "lessons": [
+            {
+                "lesson_name": "Lesson 1: Getting Started with Python",
+                "video_url": "https://example.com/python101",
+                "lesson_description": "Introduction to Python programming language and its syntax.",
+                "more_tutorials": [
+                    "https://example.com/pythonbasics",
+                    "https://example.com/pythonbeginner"
+                ]
+            },
+            {
+                "lesson_name": "Lesson 2: Variables and Data Types",
+                "video_url": "https://example.com/variables101",
+                "lesson_description": "Understanding variables, data types, and their usage in coding.",
+                "more_tutorials": [
+                    "https://example.com/codingvariables",
+                    "https://example.com/datatypes"
+                ]
+            },
+            {
+                "lesson_name": "Lesson 3: Conditional Statements",
+                "video_url": "https://example.com/conditionals101",
+                "lesson_description": "Exploring if statements, else statements, and conditional logic.",
+                "more_tutorials": [
+                    "https://example.com/conditionalcoding",
+                    "https://example.com/logicstatements"
+                ]
+            }
+        ],
+        "others": "https://example.com/codingcourses"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "chapter_name": "C-PROGRAMMING",
+    "chapter_description": "Basics  tutorials for learning C-PROGRAMING",
+    "number_of_lessons":"1",
+    "Expanded_chapter_view": {
+        "lessons": [
+            {
+                "lesson_name": "string IN C",
+                "video_url": "https://youtu.be/4NGthO9F1Bo?si=6Oe_FwspXPvRXa7l",
+                "lesson_description": "<The STRING method should be defined in a way that is easy to read and outputs ",
+                "more_tutorials": [
+                    "https://youtu.be/irqbmMNs2Bo?si=ZMplNFD99NrxbxIp"
+                ]
+            }
+        ],
+        "others": "any external url for courses (optional) "
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "chapter_name": "Database Management",
+    "chapter_description": "Discover the world of databases and how to manage data efficiently.",
+    "number_of_lessons": 2,
+    "Expanded_chapter_view": {
+        "lessons": [
+            {
+                "lesson_name": "Lesson 1: Introduction to SQL",
+                "video_url": "https://example.com/sql101",
+                "lesson_description": "Learn Structured Query Language (SQL) for managing and querying databases.",
+                "more_tutorials": [
+                    "https://example.com/sqlbasics",
+                    "https://example.com/sqlqueries"
+                ]
+            },
+            {
+                "lesson_name": "Lesson 2: Relational Databases",
+                "video_url": "https://example.com/relationaldb101",
+                "lesson_description": "Understand relational databases and their importance in data management.",
+                "more_tutorials": [
+                    "https://example.com/relationaldb",
+                    "https://example.com/dbdesign"
+                ]
+            }
+        ],
+        "others": "https://example.com/databasecourses"
+    }
+}

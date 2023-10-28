@@ -1,0 +1,20 @@
+{
+    "chapter_name": "Machine Learning",
+    "chapter_description": "Learning of some modele like KNN, random Forest,SVM etc",
+    "number_of_lessons": "1",
+    "Expanded_chapter_view": {
+        "lessons": [
+            {
+                "lesson_name": "KNN",
+                "video_url": "https://www.youtube.com/watch?v=O1nWXTXcCwI&pp=ygUDS05O",
+                "lesson_description": "KNN ALL ABOUT",
+                "more_tutorials": [
+                    "https://www.youtube.com/watch?v=abnL_GUGub4&pp=ygUDS05O",
+                    "https://www.youtube.com/watch?v=gU6KTNbk0hk&pp=ygUDS05O",
+                    "https://www.youtube.com/watch?v=0p0o5cmgLdE&pp=ygUDS05O"
+                ]
+            }
+        ],
+        "others": ""
+    }
+}
