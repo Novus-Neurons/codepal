@@ -1,5 +1,5 @@
 {
-    "total_number_of_chapters":15,
+    "total_number_of_chapters":16,
     "chapter_data_paths":[
         "/chapter-data/DATA_STRUCTURES_WITH_CPP.json",
         "/chapter-data/DATA_SCIENCE.json",
@@ -15,7 +15,8 @@
         "/chapter-data/WD.json",
         "/chapter-data/DATA_STRUCTURE_IN_JAVA.json",
         "/chapter-data/REACT_NATIVE.json",
-        "/chapter-data/WEB_SCRAPER SAMPLES.json"
+        "/chapter-data/WEB_SCRAPER SAMPLES.json",
+        "/chapter-data/ALL_ABOUT_DATA_SCIENCE.json"
         
 
         
